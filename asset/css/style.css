@@ -310,7 +310,7 @@ a {
 }
 
 .bottom_network .left-network .the_future .the_future_content .content-left .infor-title .main {
-    font-size: 24.5px;
+    font-size: 24px;
     font-weight: 600;
     margin: 0;
 }
@@ -883,6 +883,9 @@ a {
     align-items: center;
     flex-direction: row;
 }
+.discover_list{
+    margin-top: 20px;
+}
 
 .dropdown {
     width: 180px;
@@ -1341,9 +1344,93 @@ footer .foot_bottom {
     }
     .foot-row{
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
     .foot-row .foot-col:nth-child(3){
         padding: 0;
         width: auto;
+
+    }
+    .bottom_network .left-network .the_future .the_future_content .content-left .infor-title .main {
+        font-size: 16px;
+
+    }
+    .discover .group_control{
+        flex-direction: column;
+        width: 100%;
+        gap: 6px;
+    }
+    .discover .group_control .dropdown-bar{
+        width: 100%;
+    }
+    .discover .group_control .dropdown{
+        width: 100%;
+    }
+    .discover .group_control .btn_filter{
+        width: 100%;
+    }
+    .discover_sort{
+        flex-direction: column;
+    }
+    .discover_sort .discover_cell{
+        width: 100%;
+        max-width: none;
+        
+    }
+    .discover_list .group_card{
+        justify-content: center;
+    }
+    .description .description_bg{
+        height: 330px;
+    }
+    .description_group .description_btns{
+        flex-direction: column;
+        width: 100%;
+        gap: 6px;
+        justify-content: center;
+        align-items: center;
+    }
+    .description_group .description_btns .description_btn{
+        width: 100%;
+        padding: auto;
+        margin: 0;
+    }
+    .foot-row .foot-col:nth-child(2){
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+    }
+    .foot-row .foot-col:nth-child(2) .foot_group{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .foot-row .foot-col .foot_group .foot_header{
+        margin: 10px;
+    }
+    .foot-row .foot-col .foot_group .foot_menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+    .foot-row .foot-col .foot_group .foot_menu .foot_link:not(:last-child){
+        padding: 0;
+        margin: 0;
+    }
+    .foot-row .foot-col:first-child{
+        padding: 0;
+    }
+    .foot-row .foot-col:nth-child(3) {
+        margin-top: 32px;
+    }
+    .foot-row .foot-col .foot_cate{
+        margin-bottom: 20px;
     }
 }
