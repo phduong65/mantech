@@ -1048,6 +1048,7 @@ a {
     border: 2px solid #c4c4c4;
     background: none;
     font-weight: 600;
+    color: #02006C;
     font-size: 14px;
     transition: .5s;
 }
@@ -1432,5 +1433,9 @@ footer .foot_bottom {
     }
     .foot-row .foot-col .foot_cate{
         margin-bottom: 20px;
+    }
+    .creator_network .top_network h1{
+        text-align: center;
+        font-weight: 600;
     }
 }
